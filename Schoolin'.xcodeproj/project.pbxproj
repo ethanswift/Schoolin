@@ -13,6 +13,13 @@
 		C04730A32676470700BC496A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04730A12676470700BC496A /* Main.storyboard */; };
 		C04730A52676470B00BC496A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04730A42676470B00BC496A /* Assets.xcassets */; };
 		C04730A82676470B00BC496A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04730A62676470B00BC496A /* LaunchScreen.storyboard */; };
+		C04730B02676474C00BC496A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730AF2676474C00BC496A /* SignUpViewController.swift */; };
+		C04730B2267699B100BC496A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730B1267699B100BC496A /* SignInView.swift */; };
+		C04730B4267BF81B00BC496A /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730B3267BF81B00BC496A /* PersonalViewController.swift */; };
+		C04730B6267BF8B000BC496A /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730B5267BF8B000BC496A /* PersonalView.swift */; };
+		C04730B8267E972300BC496A /* MedicalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730B7267E972300BC496A /* MedicalDetailViewController.swift */; };
+		C04730BA267E975C00BC496A /* PrescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730B9267E975C00BC496A /* PrescriptionView.swift */; };
+		C04730BC267E978700BC496A /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730BB267E978700BC496A /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		C04730A42676470B00BC496A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04730A72676470B00BC496A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04730A92676470B00BC496A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04730AF2676474C00BC496A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C04730B1267699B100BC496A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C04730B3267BF81B00BC496A /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		C04730B5267BF8B000BC496A /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
+		C04730B7267E972300BC496A /* MedicalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalDetailViewController.swift; sourceTree = "<group>"; };
+		C04730B9267E975C00BC496A /* PrescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionView.swift; sourceTree = "<group>"; };
+		C04730BB267E978700BC496A /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,14 @@
 				C047309B2676470700BC496A /* AppDelegate.swift */,
 				C047309D2676470700BC496A /* SceneDelegate.swift */,
 				C047309F2676470700BC496A /* ViewController.swift */,
+				C04730AF2676474C00BC496A /* SignUpViewController.swift */,
+				C04730B1267699B100BC496A /* SignInView.swift */,
 				C04730A12676470700BC496A /* Main.storyboard */,
+				C04730B7267E972300BC496A /* MedicalDetailViewController.swift */,
+				C04730B9267E975C00BC496A /* PrescriptionView.swift */,
+				C04730BB267E978700BC496A /* ColorView.swift */,
+				C04730B3267BF81B00BC496A /* PersonalViewController.swift */,
+				C04730B5267BF8B000BC496A /* PersonalView.swift */,
 				C04730A42676470B00BC496A /* Assets.xcassets */,
 				C04730A62676470B00BC496A /* LaunchScreen.storyboard */,
 				C04730A92676470B00BC496A /* Info.plist */,
@@ -140,7 +161,14 @@
 			files = (
 				C04730A02676470700BC496A /* ViewController.swift in Sources */,
 				C047309C2676470700BC496A /* AppDelegate.swift in Sources */,
+				C04730B02676474C00BC496A /* SignUpViewController.swift in Sources */,
 				C047309E2676470700BC496A /* SceneDelegate.swift in Sources */,
+				C04730BC267E978700BC496A /* ColorView.swift in Sources */,
+				C04730BA267E975C00BC496A /* PrescriptionView.swift in Sources */,
+				C04730B4267BF81B00BC496A /* PersonalViewController.swift in Sources */,
+				C04730B6267BF8B000BC496A /* PersonalView.swift in Sources */,
+				C04730B2267699B100BC496A /* SignInView.swift in Sources */,
+				C04730B8267E972300BC496A /* MedicalDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
